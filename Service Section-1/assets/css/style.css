@@ -1,0 +1,131 @@
+
+/*
+----------------------------------------------------------------------------------
+
+    Template Name: Abu Taher- Service section
+    Template URI: demo.ataher.com
+    Description: Abu Taher is a clean and professional web developer
+    Author: W3cops
+    Author URI: http://ataher.com/
+    Version: 1.0	
+
+-------------------------------------------------------
+*/
+
+/*
+-----------------------
+TABLE OF CONTENTS
+-----------------------
+1. Fonts
+2. Reset
+3. Global
+4. Services
+*/
+
+/*
+-----------------------
+Fonts
+-----------------------
+*/
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+/* 
+
+/*
+-----------------------
+Reset
+-----------------------
+*/
+* {
+    margin:0px;
+    padding:0px;
+    border:none;
+    outline:none;
+}
+/* 
+
+/*
+-----------------------
+Global Settings
+-----------------------
+*/
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin: 0;
+}
+
+a,
+a:focus,
+a:hover,
+i,
+span {
+    display: inline-block
+}
+
+a,
+a:focus,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+    -webkit-transition: all .3s;
+    transition: all .3s
+}
+
+section {
+  padding: 60px 0;
+}
+.heading {
+  text-align: center;
+}
+/* 
+
+/*
+-----------------------
+SERVICE AREA CSS
+-----------------------
+*/
+.services-section .heading {
+  margin-bottom: 70px;
+}
+.services-section .heading h2 {
+    border-bottom: 1px solid #111;
+    display: inline-block;
+}
+.services-section .service-content {
+  border: 1px solid #ddd;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 60px;
+}
+.service-content.text-center:hover {
+  box-shadow: 0 0 35px rgba(0,0,0,.2);
+}
+.service-content.text-center:hover .service-icon {
+  transform: rotate(360deg);
+}
+.services-section .service-icon {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  position: absolute;
+  top: -40px;
+  left: 40%;
+  font-size: 40px;
+  background-color: #111;
+  color: #fff;
+  transition: 0.32s;
+}
+.services-section .service-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.services-section .service-title h3 {
+    font-size: 20px;
+}
